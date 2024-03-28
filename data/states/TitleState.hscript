@@ -1,0 +1,29 @@
+function create()
+{
+	var state = FlxG.state;
+
+	logo = state.pieces["logo"];
+	gf = state.pieces["gfDanceTitle"];
+	titleEnter = state.pieces["titleEnter"];
+	titleStatic = state.pieces["estatica_uwu"];
+	titleHands = state.pieces["logoMarioHands"];
+	
+	getHands_YPos = titleHands.y;
+	getHands_YMin = titleHands.y - 20;
+	getHands_YMax = titleHands.y + 20;
+	getHands_Direction = 1;
+}
+
+function update(elapsed)
+{
+          titleStatic.alpha = 0.3;
+
+          titleHands.y = getHands_YPos;
+          getHands_YPos = getHands_YPos + 0.3 * getHands_Direction;
+          
+          if (getHands_YPos > getHands_YMax)
+              getHands_Direction = -1;
+              
+          if (getHands_YPos < getHands_YMin)
+              getHands_Direction = 1;
+}

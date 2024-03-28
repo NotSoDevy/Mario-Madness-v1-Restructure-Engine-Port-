@@ -1,0 +1,63 @@
+[
+        {
+		"type": "static",
+		"asset": "logoMarioHands",
+		"position": [10, 20],
+		"antialias": true
+	},
+	{
+		"type": "animated",
+		"asset": "logoBFGFAssets",
+		"position": [260, 360],
+		"animations":
+		[
+			{
+				"name": "idle",
+				"prefix": "BF n GF sprites00",
+				"fps": 12,
+				"loop": true
+			}
+		],
+		"firstAnimation": "idle",
+		"beatAnimationSpeed": 1,
+		"antialias": true
+	},
+	{
+		"type": "animated",
+		"asset": "estatica_uwu",
+		"position": [0, 0],
+		"animations":
+		[
+			{
+				"name": "static",
+				"prefix": "Estatica papu00",
+				"fps": 24,
+				"loop": true
+			}
+		],
+		"firstAnimation": "static",
+		"antialias": true
+	},
+	{
+		"type": "animated",
+		"asset": "logoEnter",
+		"position": [500, 576],
+		"animations":
+		[
+			{
+				"name": "idle",
+				"prefix": "textoSexoso00",
+				"fps": 24,
+				"loop": true
+			}
+		],
+		"firstAnimation": "idle",
+		"antialias": true
+	},
+	{
+		"type": "static",
+		"asset": "logoexe",
+		"position": [360, 40],
+		"antialias": true
+	}
+]
