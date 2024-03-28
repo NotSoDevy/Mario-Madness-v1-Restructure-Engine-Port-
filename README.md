@@ -3,7 +3,8 @@
 Unofficial Restructure Engine port of the first version of Mario Madness. The modpack is made for fun and is NOT associated with the MM Team.
 
 # Warning
-Super early modpack build. May contain alot of unfinished shit and bugs.
+Super early modpack build. May contain alot of unfinished shit and bugs. Also, I have no plans on porting v2 because it would take a long time
+to port alot of stuff, which is why I am doing version 1.
 
 # How To Play
 Download the mod pack and extract it. After doing so, put it inside Restrcture Engine's "mods" folder.
